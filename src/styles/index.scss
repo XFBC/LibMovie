@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "variables";
-@import "buttons";
-@import "fonts";
-@import "common";
-@import "swipers";
-@import "fix";
+@import 'variables';
+@import 'buttons';
+@import 'fonts';
+@import 'common';
+@import 'swipers';
+@import 'fix';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');

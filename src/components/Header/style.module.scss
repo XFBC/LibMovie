@@ -1,5 +1,10 @@
 .header_style {
   display: flex;
-  justify-content: center;
   gap: 12px;
+  padding-left: 2rem;
+  font-size: 50px;
+}
+
+.bg_green {
+  background: rgba(61, 210, 204, 0.4);
 }
