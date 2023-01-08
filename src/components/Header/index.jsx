@@ -6,7 +6,7 @@ import Logo from './../../../public/images/Vector.png';
 export function Header() {
   return (
     <header
-      className={`flex flex-col h-[100vh] w-[276px] bg-[#212121] items-center rounded-r-[30px] pt-[56px]`}
+      className={`flex flex-col h-[100vh] w-[276px] bg-[#212121] items-center rounded-r-[30px] pt-[56px] fixed`}
     >
       <div className="items-center flex flex-col">
         <img src={Logo} alt="" />

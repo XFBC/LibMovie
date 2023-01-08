@@ -9,6 +9,7 @@ export default function MovieCard({ movie, showLink = true }) {
       <img
         src={imagesURL + (movie.poster_path && movie.poster_path)}
         alt={movie.title}
+        className="w-[220px]"
       />
       <h2>{movie.title}</h2>
 

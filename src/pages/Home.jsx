@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { Container } from '../components/Container';
 import { DrawerMenu } from '../components/DrawerMenu';
 import MovieCard from '../components/MovieCard';
 import { api } from '../services/axios';
@@ -47,6 +48,15 @@ export default function Home() {
               <MovieCard movie={movie} />
             </div>
           ))} */}
+
+        <Container>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+            tenetur, nostrum quam consequuntur delectus nihil cum dolores id
+            quibusdam dolorem saepe ipsa beatae magni optio fugit earum iusto
+            tempore omnis?
+          </p>
+        </Container>
       </div>
     </>
   );
