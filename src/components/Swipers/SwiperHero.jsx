@@ -6,7 +6,7 @@ import { Pagination } from 'swiper';
 
 export const SwiperHero = () => {
   return (
-    <div className="pt-10">
+    <div className="pt-10 swiper-hero">
       {' '}
       {/* <div className="pt-10">
         {homeBanner.map((item) => (
@@ -22,16 +22,12 @@ export const SwiperHero = () => {
         modules={[Pagination]}
         className="mySwiper"
       >
-        <div>
-          {homeBanner.map((item) => (
-            <div>
-              <SwiperSlide>
-                {' '}
-                <img src={item.img} alt="" />
-              </SwiperSlide>
-            </div>
-          ))}
-        </div>
+        {homeBanner.map((item) => (
+          <SwiperSlide>
+            {' '}
+            <img src={item.img} alt="" />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );

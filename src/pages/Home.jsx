@@ -9,6 +9,7 @@ import Search from '/src/components/Search.jsx';
 import { homeBanner } from './../constants/index';
 
 import { SwiperHero } from '../components/Swipers/SwiperHero';
+import { TrendingFilms } from '../components/TrendingFilms';
 
 const moviesURL = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY;
@@ -56,6 +57,7 @@ export default function Home() {
         <Container>
           <Search />
           <SwiperHero />
+          <TrendingFilms />
         </Container>
       </div>
     </>

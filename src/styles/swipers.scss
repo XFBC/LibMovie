@@ -29,3 +29,29 @@
 //   height: 100%;
 //   object-fit: cover;
 // }
+
+.swiper-hero {
+  .swiper {
+    max-width: 910px;
+    margin: 0;
+  }
+  .swiper-pagination-bullets {
+    .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      display: inline-block;
+      background-color: #3dd2cc;
+      opacity: 0.5;
+    }
+  }
+}
+
+.swiper-trending {
+  .swiper {
+    max-width: 910px;
+    margin: 0;
+  }
+  .swiper-wrapper {
+    max-width: 906px;
+  }
+}
