@@ -2,7 +2,6 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, FreeMode } from 'swiper';
 import 'swiper/css/free-mode';
-import Trending1 from './../../../public/images/trending-1.png';
 
 import { homeTrending } from './../../constants/index';
 

@@ -1,8 +1,8 @@
-import banner1 from './../../public/images/banner-1.png';
-import trending1 from './../../public/images/trending-1.png';
-import trending2 from './../../public/images/trending-2.png';
-import trending3 from './../../public/images/trending-3.png';
-import trending4 from './../../public/images/trending-4.png';
+import banner1 from '/images/banner-1.png';
+import trending1 from '/images/trending-1.png';
+import trending2 from '/images/trending-2.png';
+import trending3 from '/images/trending-3.png';
+import trending4 from '/images/trending-4.png';
 export const homeBanner = [
   {
     id: '1',

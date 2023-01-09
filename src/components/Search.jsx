@@ -1,5 +1,5 @@
 import { AiOutlineSearch, BsBell } from 'react-icons/all';
-import Avatar from './../../public/images/avatar.png';
+import Avatar from '/images/avatar.png';
 
 export default function Search() {
   return (
