@@ -6,15 +6,8 @@ import { Pagination } from 'swiper';
 
 export const SwiperHero = () => {
   return (
-    <div className="pt-10 swiper-hero">
+    <div className="pt-10 swiper-hero w-[890px]">
       {' '}
-      {/* <div className="pt-10">
-        {homeBanner.map((item) => (
-          <div>
-            <img src={item.img} alt="" />
-          </div>
-        ))}
-      </div> */}
       <Swiper
         pagination={{
           dynamicBullets: true,

@@ -47,14 +47,6 @@ export default function Home() {
   return (
     <>
       <div className="">
-        {/* <h2>Melhores filmes</h2>
-        {topMovies.length > 0 &&
-          topMovies.map((movie) => (
-            <div key={movie.id}>
-              <MovieCard movie={movie} />
-            </div>
-          ))} */}
-
         <Container>
           <Search />
           <SwiperHero />
