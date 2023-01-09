@@ -24,19 +24,47 @@ export const homeTrending = [
     img: trending1,
   },
   {
-    id: '1',
+    id: '2',
     img: trending2,
   },
   {
-    id: '1',
+    id: '3',
     img: trending3,
   },
   {
-    id: '1',
+    id: '4',
     img: trending4,
   },
   {
-    id: '1',
+    id: '5',
     img: trending1,
+  },
+];
+
+export const Categories = [
+  {
+    id: '1',
+    info: 'Ação',
+  },
+
+  {
+    id: '2',
+    info: 'Aventura',
+  },
+  {
+    id: '2',
+    info: 'Animação',
+  },
+  {
+    id: '2',
+    info: 'Comedia',
+  },
+  {
+    id: '2',
+    info: 'Fantasia',
+  },
+  {
+    id: '2',
+    info: 'Infantil',
   },
 ];

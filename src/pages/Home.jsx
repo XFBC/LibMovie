@@ -12,6 +12,7 @@ import { SwiperHero } from '../components/Swipers/SwiperHero';
 import { TrendingFilms } from '../components/TrendingFilms';
 import { TopRated } from '../components/TopRated';
 
+
 const moviesURL = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY;
 
@@ -52,6 +53,7 @@ export default function Home() {
           <SwiperHero />
           <TrendingFilms />
           <TopRated />
+        
         </Container>
       </div>
     </>
