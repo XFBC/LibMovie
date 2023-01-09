@@ -9,11 +9,11 @@ export default function MovieCard({ movie, showLink = true }) {
       <img
         src={imagesURL + (movie.poster_path && movie.poster_path)}
         alt={movie.title}
-        className="w-[220px]"
+        className="rounded-[30px] w-[200px] h-[315px]"
       />
-      <h2>{movie.title}</h2>
+      {/* <h2>{movie.title}</h2> */}
 
-      {showLink && <Link to={`/movie/${movie.id}`}>Detalhes</Link>}
+      {/* {showLink && <Link to={`/movie/${movie.id}`}>Detalhes</Link>} */}
     </div>
   );
 }
