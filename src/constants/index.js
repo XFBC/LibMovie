@@ -68,3 +68,32 @@ export const Categories = [
     info: 'Infantil',
   },
 ];
+
+export const Services = [
+  {
+    id: '1',
+    info: 'Netflix',
+  },
+
+  {
+    id: '2',
+    info: 'Prime video',
+  },
+  {
+    id: '2',
+    info: 'Disney +',
+  },
+  {
+    id: '2',
+    info: 'HBO max',
+  },
+  {
+    id: '2',
+    info: 'Hulu',
+  },
+  {
+    id: '2',
+    info: 'Globo Play',
+  },
+];
+

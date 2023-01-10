@@ -42,19 +42,23 @@ export function Header() {
         </Link>
 
         <div className="bg-[#191919] text-left rounded-2xl px-[16px] pt-10 pb-4 mt-2 ">
-          <p className="text-lg text-[#E8E8E8CC]">
-            Play movie quizes <br /> and earn <br /> free tickets
+          <p className="text-sm text-[#E8E8E8CC]">
+            Responda questionários <br /> de filmes e ganhe <br /> bilhetes
+            grátis
           </p>
-          <p className="text-[14px]"> 50k people are playing now</p>
+          <p className="text-[14px]">
+            {' '}
+            +50 mil pessoas estão <br /> jogando agora
+          </p>
 
           <a
             href=""
-            className={` ${styles.bg_green}  flex justify-center  rounded-[34px] mt-4 hover:bg-[#3DD2CC]`}
+            className={` ${styles.bg_green}  flex justify-center  rounded-[34px] mt-4 hover:bg-[#3DD2CC] `}
           >
             {' '}
             <span className="text-[#3DD2CC] py-[6px] hover:text-[#212121]">
               {' '}
-              Start playing
+              Começa a jogar
             </span>
           </a>
         </div>

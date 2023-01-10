@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import MovieCard from '../MovieCard';
 import { api } from './../../services/axios';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Link } from 'react-router-dom';
 
 const moviesURL = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY;
@@ -20,8 +21,6 @@ export const SwiperTopRated = () => {
       `${moviesURL}top_rated?${apiKey}&language=pt-BR`
     );
     setMovies(response.data.results);
-
-    console.log(response.data.results);
   }
 
   useEffect(() => {
@@ -41,7 +40,9 @@ export const SwiperTopRated = () => {
             topMovies.map((movie) => (
               <div key={movie.id}>
                 <SwiperSlide>
-                  <MovieCard movie={movie} />
+                  <Link to={`/movie/${movie.id}`}>
+                    <MovieCard movie={movie} />
+                  </Link>
                 </SwiperSlide>
               </div>
             ))}

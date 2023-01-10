@@ -11,9 +11,9 @@ export default function MovieCard({ movie, showLink = true }) {
         alt={movie.title}
         className="rounded-[30px] w-[200px] h-[315px]"
       />
-      {/* <h2>{movie.title}</h2> */}
+      {/* <h2>{movie.title}</h2>
 
-      {/* {showLink && <Link to={`/movie/${movie.id}`}>Detalhes</Link>} */}
+      {showLink && <Link to={`/movie/${movie.id}`}>Detalhes</Link>} */}
     </div>
   );
 }
