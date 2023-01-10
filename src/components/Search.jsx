@@ -27,7 +27,7 @@ export default function Search() {
           <input
             type="text"
             className="py-3 bg-[#212121] w-[789px] rounded-3xl pl-20 text-[#666666] placeholder-[#666666]"
-            placeholder="Search for movies, TV shows..."
+            placeholder="Pesquises por filmes e séries..."
             onChange={(e) => setSearch(e.target.value)}
             value={search}
           />

@@ -20,19 +20,13 @@ export function Header() {
           to="/movie"
           className="hover:bg-[#3DD2CC] w-[276px] py-[28px] text-center"
         >
-          Movies
+          Filmes
         </Link>
         <Link
           to="/movie"
           className="hover:bg-[#3DD2CC] w-[276px] py-[28px] text-center"
         >
           TV series
-        </Link>
-        <Link
-          to="/movie"
-          className="hover:bg-[#3DD2CC] w-[276px] py-[28px] text-center"
-        >
-          Movie
         </Link>
         <Link
           to="/movie"

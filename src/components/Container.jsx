@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Container = ({ children }) => {
   return (
-    <div className="bg-[#191919] pt-11 pl-[20%] flex md:flex-col flex-col">
+    <div className="bg-[#191919] pt-11 pl-[20%] flex md:flex-col flex-col pb-[200px]">
       {children}
     </div>
   );
