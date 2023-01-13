@@ -13,6 +13,7 @@ import { TrendingFilms } from '../components/TrendingFilms';
 import { TopRated } from '../components/TopRated';
 
 export default function Home() {
+  console.log('test de GITHUB');
   return (
     <>
       <div className="">
