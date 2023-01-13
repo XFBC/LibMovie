@@ -14,3 +14,9 @@
 section {
   background-color: #191919;
 }
+
+html {
+  ::selection {
+    color: #3dd2cc;
+  }
+}

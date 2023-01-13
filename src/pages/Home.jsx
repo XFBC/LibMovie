@@ -12,39 +12,7 @@ import { SwiperHero } from '../components/Swipers/SwiperHero';
 import { TrendingFilms } from '../components/TrendingFilms';
 import { TopRated } from '../components/TopRated';
 
-
-const moviesURL = import.meta.env.VITE_API;
-const apiKey = import.meta.env.VITE_API_KEY;
-
 export default function Home() {
-  const [topMovies, setMovies] = useState([
-    {
-      title: null,
-      id: null,
-    },
-  ]);
-
-  async function getMovies() {
-    const response = await api.get(
-      `${moviesURL}top_rated?${apiKey}&language=pt-BR`
-    );
-    setMovies(response.data.results);
-
-    // console.log(response.data.results);
-  }
-
-  useEffect(() => {
-    getMovies();
-  }, []);
-  // return (
-  //   <div className="container">
-  //     <h2 className="title">Melhores filmes:</h2>
-  //     <div className="movies-container">
-  //       {topMovies.length > 0 &&
-  //         topMovies.map((movie) => <MovieCard key={movie.id} movie={movie} />)}
-  //     </div>
-  //   </div>
-  // );
   return (
     <>
       <div className="">
@@ -53,7 +21,6 @@ export default function Home() {
           <SwiperHero />
           <TrendingFilms />
           <TopRated />
-        
         </Container>
       </div>
     </>
