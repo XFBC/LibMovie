@@ -5,6 +5,7 @@ import Busca from '/src/components/Search.jsx';
 import { useEffect } from 'react';
 import { api } from '../services/axios';
 import { SwiperTopRated } from '../components/Swipers/SwiperTopRated';
+import { Link } from 'react-router-dom';
 
 const searchURL = import.meta.env.VITE_SEARCH;
 const apiKey = import.meta.env.VITE_API_KEY;
@@ -26,7 +27,7 @@ export function Search() {
 
   useEffect(() => {
     getSearchMovies();
-  }, []);
+  }, [query]);
 
   return (
     <div>
@@ -46,6 +47,12 @@ export function Search() {
                     alt={movie.title}
                     className="rounded-[30px] w-[200px] h-[315px]"
                   />
+                  <Link to="/movies/:id">
+                    <span className="text-[#3DD2CC] py-[6px] hover:text-[#124235] cursor-pointer">
+                      {' '}
+                      Ver detalhes
+                    </span>
+                  </Link>
                 </div>
               </div>
             ))}
